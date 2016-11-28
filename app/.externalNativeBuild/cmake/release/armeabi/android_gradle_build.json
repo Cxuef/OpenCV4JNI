@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/eirot/MyDev/android-sdk-linux/cmake/3.6.3155560/bin/cmake --build /home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"grayprocess-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "grayprocess",
+			"buildCommand" : "/home/eirot/MyDev/android-sdk-linux/cmake/3.6.3155560/bin/cmake --build /home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/armeabi --target grayprocess",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/platforms/android-21/arch-arm  -Dgrayprocess_EXPORTS -I/home/eirot/MyDev/Opencv/OpenCV-android-sdk/sdk/native/jni/include -isystem /home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/cpp/GrayProcess.cpp",
+					"workingDirectory" : "/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/obj/armeabi/libgrayprocess.so",
+			"toolchain" : "8690634058108978958"
+		}
+	},
+	"toolchains" : 
+	{
+		"8690634058108978958" : 
+		{
+			"cCompilerExecutable" : "/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+Executable : /home/eirot/MyDev/android-sdk-linux/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/cpp
+-B/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=/home/eirot/MyDev/android-sdk-linux/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/home/eirot/MyDev/android-sdk-linux/cmake/3.6.3155560/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=21
+jvmArgs : 
+

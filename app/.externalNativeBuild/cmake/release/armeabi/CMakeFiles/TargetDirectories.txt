@@ -1,0 +1,3 @@
+/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/grayprocess.dir

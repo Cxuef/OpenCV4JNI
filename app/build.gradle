@@ -14,7 +14,14 @@ android {
         ndk {
             moduleName "grayprocess"
             ldLibs "log", "z", "m"
-            abiFilters "armeabi", "armeabi-v7a", "armeabi-v8a"
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a"
+        }
+
+        externalNativeBuild {
+            // we use ndkBuild for our exist ndk project
+            ndkBuild {
+                abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a'
+            }
         }
     }
 
@@ -38,6 +45,23 @@ android {
 
     tasks.withType(JavaCompile) {
         compileTask -> compileTask.dependsOn ndkBuild
+    }
+
+    externalNativeBuild {
+        /*cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }*/
+        // For ndk-build, instead use ndkBuild {} not cmake{}
+        ndkBuild {
+            /**
+             * https://developer.android.com/studio/projects/add-native-code.html#link-gradle
+             * Manually configure Gradle
+             * Gradle also includes the Application.mk file if it is located in the same directory as your Android.mk file.
+             * path "src/main/jni/Application.mk"
+             */
+
+            path "src/main/jni/Android.mk"
+        }
     }
 
     buildTypes {
