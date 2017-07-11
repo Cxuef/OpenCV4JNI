@@ -1,29 +1,29 @@
 {
   "buildFiles": [
-    "/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/Android.mk",
-    "/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/Application.mk"
+    "/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/Android.mk",
+    "/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/Application.mk"
   ],
   "cleanCommands": [
-    "/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/lib clean"
+    "/home/android/projects/as/AS3.0/android-ndk-r15/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/lib clean"
   ],
   "libraries": {
     "grayprocess-debug-armeabi-v7a": {
-      "buildCommand": "/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/lib /home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libgrayprocess.so",
+      "buildCommand": "/home/android/projects/as/AS3.0/android-ndk-r15/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/lib /home/android/projects/Eirot/as_projects/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libgrayprocess.so",
       "toolchain": "toolchain-armeabi-v7a",
       "abi": "armeabi-v7a",
       "artifactName": "grayprocess",
       "files": [
         {
-          "src": "/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/GrayProcess.cpp",
-          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-g\" \"-march\u003darmv7-a\" \"-mfpu\u003dvfpv3-d16\" \"-mfloat-abi\u003dsoftfp\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/home/eirot/MyDev/Opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv\" \"-I/home/eirot/MyDev/Opencv/OpenCV-android-sdk/sdk/native/jni/include\" \"-I/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include\" \"-I/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni\" \"-DANDROID\" \"-fPIC\" \"-DANDROID\" \"-fsigned-char\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"-std\u003dc++11\" \"-isystem\" \"/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/platforms/android-21/arch-arm/usr/include\""
+          "src": "/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/GrayProcess.cpp",
+          "flags": "\"-gcc-toolchain\" \"/home/android/projects/as/AS3.0/android-ndk-r15/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi21\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/android/projects/Eirot/study/OpenCV/OpenCV-android-sdk/sdk/native/jni/include/opencv\" \"-I/home/android/projects/Eirot/study/OpenCV/OpenCV-android-sdk/sdk/native/jni/include\" \"-I/home/android/projects/as/AS3.0/android-ndk-r15/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/home/android/projects/as/AS3.0/android-ndk-r15/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include\" \"-I/home/android/projects/as/AS3.0/android-ndk-r15/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni\" \"-frtti\" \"-fexceptions\" \"-std\u003dc++11\" \"-DANDROID\" \"-fPIC\" \"-DANDROID\" \"-fsigned-char\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/android/projects/as/AS3.0/android-ndk-r15/sysroot\" \"-isystem\" \"/home/android/projects/as/AS3.0/android-ndk-r15/sysroot/usr/include/arm-linux-androideabi\""
         }
       ],
-      "output": "/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libgrayprocess.so"
+      "output": "/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libgrayprocess.so"
     }
   },
   "toolchains": {
     "toolchain-armeabi-v7a": {
-      "cppCompilerExecutable": "/home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++"
+      "cppCompilerExecutable": "/home/android/projects/as/AS3.0/android-ndk-r15/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
     }
   },
   "cFileExtensions": [],

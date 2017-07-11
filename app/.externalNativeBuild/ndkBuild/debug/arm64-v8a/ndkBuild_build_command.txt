@@ -1,16 +1,17 @@
-Executable : /home/eirot/MyDev/android-sdk-linux/ndk/android-ndk-r12b/ndk-build
+Executable : /home/android/projects/as/AS3.0/android-ndk-r15/ndk-build
 arguments : 
 NDK_PROJECT_PATH=null
-APP_BUILD_SCRIPT=/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/Android.mk
-NDK_APPLICATION_MK=/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/src/main/jni/Application.mk
+APP_BUILD_SCRIPT=/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/src/main/jni/Application.mk
 APP_ABI=arm64-v8a
 NDK_ALL_ABIS=arm64-v8a
-NDEBUG=1
+NDK_DEBUG=1
 APP_PLATFORM=android-21
-NDK_OUT=/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/.externalNativeBuild/ndkBuild/debug/obj
-NDK_LIBS_OUT=/home/eirot/MyDev/study/AndroidApps/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/lib
+NDK_OUT=/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/home/android/projects/Eirot/as_projects/OpenCV4JNI/app/build/intermediates/ndkBuild/debug/lib
 APP_SHORT_COMMANDS=false
 LOCAL_SHORT_COMMANDS=false
+-B
 -n
 jvmArgs : 
 
