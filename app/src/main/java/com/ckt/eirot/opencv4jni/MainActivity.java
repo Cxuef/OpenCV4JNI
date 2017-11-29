@@ -8,8 +8,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = "OpenCV4JNI";
+    private OpenCV4JNIApp mOpenCV4JNIApp;
     private ImageView mImageView;
     private Bitmap bmp;
     private boolean switchStatus;
@@ -22,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mOpenCV4JNIApp = (OpenCV4JNIApp) getApplication();
+        mOpenCV4JNIApp.setOpenCV4JNIApp(mOpenCV4JNIApp);
 
         mImageView = (ImageView) findViewById(R.id.img_opencv);
         bmp = BitmapFactory.decodeResource(getResources(), R.drawable.ibeauty);
@@ -41,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void doOpenCV() {
         Log.d(TAG, "----->>doOpenCV: switchStatus = " + switchStatus);
+        FirebaseAnalyticsUtil.logEvent("doOpenCV", " switchStatus = " + switchStatus);
+
         if (switchStatus) {
             mImageView.setImageResource(R.drawable.ibeauty);
             getWindow().setStatusBarColor(getResources().getColor(R.color.colorPrimaryDark));
